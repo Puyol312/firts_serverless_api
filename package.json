@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,10 @@
   "type": "commonjs",
   "dependencies": {
     "next": "^16.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.8",
+    "@types/react": "19.2.8",
+    "typescript": "5.9.3"
   }
 }
