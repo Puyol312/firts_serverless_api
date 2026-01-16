@@ -149,13 +149,10 @@ Webhook para recibir notificaciones de MercadoPago sobre el estado de los pagos.
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio>
+git clone https://github.com/Puyol312/firts_serverless_api.git
 
 # Instalar dependencias
 npm install
-
-# Configurar variables de entorno
-cp .env.example .env
 
 # Desarrollo local
 npm run dev
@@ -164,28 +161,11 @@ npm run dev
 vercel
 ```
 
-## 🔐 Variables de Entorno
-
-```env
-DATABASE_URL=
-MERCADOPAGO_ACCESS_TOKEN=
-EMAIL_API_KEY=
-JWT_SECRET=
-```
 
 ## 📚 Documentación de Postman
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/your-collection-id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/caiopuyolleguiza-3396697/workspace/serverless-api/collection/47803384-100253d2-ac28-4058-a051-4e7247600c09?action=share&creator=47803384&active-environment=47803384-b115d001-b35c-4275-886d-1587e79e1401)
 
-> **Nota:** Reemplaza `your-collection-id` con el ID de tu collection de Postman una vez que la hayas creado y publicado.
-
-### Cómo obtener el botón de Postman:
-
-1. Abre tu collection en Postman
-2. Haz clic en los tres puntos (•••) junto al nombre de la collection
-3. Selecciona "Share collection"
-4. En la pestaña "Via Run in Postman", copia el código del botón
-5. Reemplaza el enlace en este README
 
 ## 📝 Notas de Desarrollo
 
